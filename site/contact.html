@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vina Raja | Contact</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">VR</div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="interests.html">Interests</a>
+      <a href="resume.html">Resume</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Me</h1>
+
+    <form id="contact-form" novalidate>
+      <label>
+        Name
+        <input type="text" id="name">
+      </label>
+      <span class="error" id="name-error"></span>
+
+      <label>
+        Email
+        <input type="email" id="email">
+      </label>
+      <span class="error" id="email-error"></span>
+
+      <label>
+        Message
+        <textarea id="message"></textarea>
+      </label>
+      <span class="error" id="message-error"></span>
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+
+    <p id="contact-success" class="hidden">
+      Thank you. Your message has been recorded.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Vina Raja</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

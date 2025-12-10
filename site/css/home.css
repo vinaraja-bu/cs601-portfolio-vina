@@ -1,0 +1,26 @@
+.hero {
+    padding: 40px 0 24px;
+  }
+  
+  .hero-text h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .hero-text p {
+    max-width: 520px;
+  }
+  
+  .highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+  }
+  
+  .highlight-grid article {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 6px;
+    background: #fafafa;
+  }

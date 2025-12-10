@@ -1,0 +1,26 @@
+form {
+    max-width: 420px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 12px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    min-height: 80px;
+  }
+  
+  .error {
+    color: #c00;
+    font-size: 12px;
+  }

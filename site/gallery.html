@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vina Raja | Gallery</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">VR</div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="interests.html">Interests</a>
+      <a href="resume.html">Resume</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Photo Gallery</h1>
+    <section class="gallery-grid">
+      <img src="images/gallery1.jpg" alt="Description 1" class="thumb">
+      <img src="images/gallery2.jpg" alt="Description 2" class="thumb">
+      <img src="images/gallery3.jpg" alt="Description 3" class="thumb">
+    </section>
+
+    <div id="lightbox" class="lightbox hidden">
+      <span id="lightbox-close">&times;</span>
+      <img id="lightbox-img" alt="">
+      <p id="lightbox-caption"></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Vina Raja</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
